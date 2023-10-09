@@ -16,7 +16,8 @@
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "wagmi": "^0.10.11",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "moralis": "^2.11.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -84,9 +84,12 @@ function Swap(props) {
   }
 
   async function fetchPrices(one, two) {
-    const res = await axios.get(`http://localhost:3001/tokenPrice`, {
-      params: { addressOne: one, addressTwo: two },
-    });
+    const res = await axios.get(
+      `http://dex-back-3vmib7ndv-aliceonly.vercel.app/tokenPrice`,
+      {
+        params: { addressOne: one, addressTwo: two },
+      }
+    );
     setPrices(res.data);
   }
 
